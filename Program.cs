@@ -61,7 +61,7 @@ namespace Standart {
           } catch { } // Пропускаем файлы, которые не можем прочитать
         }
       } catch (UnauthorizedAccessException) {
-        Console.WriteLine($"Нет доступа к папке: {folder}");
+        Console.WriteLine($"Not Available: {folder}");
       }
     }
   }
@@ -78,7 +78,7 @@ namespace Standart {
         content = File.ReadAllText(files[аrrayIndex]);
 
         if (Regex.IsMatch(content, keyWord)) {
-          Console.WriteLine($"Найдено совпадение в {files[аrrayIndex]}");
+          Console.WriteLine($"A match was found in the {files[аrrayIndex]}");
         }
       }
     }
