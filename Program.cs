@@ -1,4 +1,10 @@
-﻿using System;
+/******************************************
+*  Создал Коновалов К.М.                  *
+*  Вариант: нету                          *
+*  Язык программирования: C#              *
+*******************************************/
+
+using System;
 using System.IO;
 using System.Reflection;
 using System.Runtime.InteropServices;
